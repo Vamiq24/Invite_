@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .invitation-container,
+  .confirmation-container,
+  .thanks-container {
+    width: 800px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #3498db;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  #one{
+    margin-top: 0px;
+    position: fixed;
+    top: 150px;
+    font-size: 20px;
+    background-color: black;
+    color: #3498db;
+  }
+  #two{
+    font-size: 3rem;
+  }
+  a{
+    text-decoration: none;
+  }
+  #confirmationMessage{
+    font-size: 25px;
+    color: #7B66FF;
+  }
+  strong{
+    color: white;
+  }
